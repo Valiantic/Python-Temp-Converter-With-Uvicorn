@@ -11,6 +11,9 @@ async def index():
 <body>
     <h1> Temperature Converter Prototype Using Uvicorn </h1>
     <h4> By Steven Madali </h4>
+    </hr>
+    <h4> Type first the number you want to convert then / c for Celsius / f for Fahrenheit/ k for Kelvin </h4>
+    <h4>http://localhost:5000/</h4>
 </body>
 </html>'''
     return Response(content=ret, media_type="text/html")
